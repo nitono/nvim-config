@@ -5,7 +5,8 @@ vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
 use 'projekt0n/github-nvim-theme'
-  use 'ryanoasis/vim-devicons'
+use 'rcarriga/nvim-notify'
+use 'ryanoasis/vim-devicons'
   use 'wbthomason/packer.nvim'
   use 'folke/tokyonight.nvim'
   use 'neovim/nvim-lspconfig'
@@ -33,6 +34,7 @@ use 'projekt0n/github-nvim-theme'
   use {
   'dinhhuy258/git.nvim'
 }
+use 'windwp/nvim-ts-autotag'
 use 'lewis6991/gitsigns.nvim'
 use('jose-elias-alvarez/null-ls.nvim')
 use('MunifTanjim/prettier.nvim')
